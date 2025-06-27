@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "start": "vite preview --port 5000 --host 0.0.0.0",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://suraj0004.github.io/react-ecommerce-ui",
   "dependencies": {
