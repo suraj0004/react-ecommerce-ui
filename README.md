@@ -1,3 +1,7 @@
+![Screenshot](screenshot.png)
+
+[Live Demo](https://suraj0004.github.io/react-ecommerce-ui/)
+
 # ShopHub - Modern Product Showcase React App
 
 A responsive React.js Product Showcase Web Application built with modern technologies, featuring advanced filtering, sorting, and PWA capabilities.
