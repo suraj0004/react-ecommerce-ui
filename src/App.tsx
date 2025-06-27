@@ -9,6 +9,11 @@ import ProductDetail from "./pages/product-detail";
 import Cart from "./pages/cart";
 import NotFound from "./pages/not-found";
 
+
+const isProd = import.meta.env.MODE === "production"; // Vite
+console.log('isProd', isProd);
+
+
 // Custom Router component using Wouter
 function AppRouter() {
   return (
@@ -25,7 +30,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <WouterRouter base="/react-ecommerce-ui">
+        <WouterRouter  base={isProd ? "/react-ecommerce-ui" : "/"}>
           <Toaster />
           <AppRouter />
         </WouterRouter>
