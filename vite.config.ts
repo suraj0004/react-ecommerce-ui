@@ -13,8 +13,9 @@ export default defineConfig({
     host: "0.0.0.0",
     strictPort: true,
     allowedHosts: [
-      "localhost"
-    ]
+      "localhost",
+      "b99bdb07-b371-465b-9ffb-9bd6dbaacaca-00-30ravi7djgrcy.pike.replit.dev",
+    ],
   },
   build: {
     outDir: "dist",
