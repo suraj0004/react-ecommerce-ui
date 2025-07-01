@@ -174,7 +174,7 @@ export default function Home() {
             ) : (
               <>
                 <div className="mb-8">
-                  <ProductGrid products={paginatedProducts} onAddToCart={cart.addToCart} />
+                  <ProductGrid products={paginatedProducts} onAddToCart={cart.addToCart} viewMode={viewMode} />
                 </div>
 
                 {/* Pagination */}
